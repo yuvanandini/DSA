@@ -1,0 +1,1 @@
+// find all synthetic pairs in an array 

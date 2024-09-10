@@ -1,0 +1,1 @@
+// find the equilibrium index of an array 
