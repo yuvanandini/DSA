@@ -1,6 +1,7 @@
 function repeating(arr) {
     var frequencyMap = {};
     var res = [];
+    var non = [];
 
     // Create a frequency map
     for (let i = 0; i < arr.length; i++) {
@@ -17,9 +18,12 @@ function repeating(arr) {
         if (frequencyMap[key] > 1) {
             res.push(Number(key)); // Push the key as a number
         }
+        else {
+           non.push(Number(key)) 
+        }
     }
 
-    return res;
+    return non;
 }
 
 console.log(repeating([1, 2, 3, 1, 2, 4, 5, 6])); // Output: [1, 2]

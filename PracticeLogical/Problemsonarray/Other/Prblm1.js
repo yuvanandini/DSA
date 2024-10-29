@@ -7,8 +7,8 @@
 
 // Input: nums = [4,1,2,1,2]
 // Output: 4
-// Example 3:
 
+// Example 3:
 // Input: nums = [1]
 // Output: 1
 
@@ -20,4 +20,5 @@ var singleNumber = function(nums) {
     }
     return ans;
 };
+singleNumber([1,2,3,3,2,4,4])
 
